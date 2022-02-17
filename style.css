@@ -19,15 +19,15 @@ h2 {
   display:flex;
   justify-content: space-between;
   margin-top: 5px;
-  margin-left:250px;
-  margin-right:250px;
+  margin-left:15%;
+  margin-right:15%;
 }
 
 .submit-btn {
   display:flex;
   justify-content: flex-end;
   margin-top: 5px;
-  margin-right:250px;
+  margin-right:15%;
 }
 
 .add {
