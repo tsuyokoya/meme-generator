@@ -1,0 +1,120 @@
+.header, .form-control {
+  text-align: center;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.title {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.form-control {
+  display:flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-left:250px;
+  margin-right:250px;
+}
+
+.submit-btn {
+  display:flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+  margin-right:250px;
+}
+
+.add {
+  cursor: pointer;
+	border: 1 px solid black;
+	padding: 0;
+	font: inherit;
+  background-color: lightblue;
+}
+
+.add:hover {
+  opacity: 0.75;
+}
+
+input {
+  width: 600px;
+  height: 40px;
+  background-color: antiquewhite;
+  font-size: 30px;
+}
+
+span {
+  transition: color 1s;
+  font-size: 30px;
+}
+
+img {
+  height: 400px;
+  width: 350px;
+}
+
+.container:hover{
+  opacity:0.5;
+}
+
+.container {
+  position:relative;
+  margin: 5px;
+  font-size: 50px;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width:350px;
+}
+
+.text {
+  width:350px;
+  word-wrap: break-word;
+  text-align: center;
+  color:white;
+  -webkit-text-stroke: 3px black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.top{
+  position:absolute;
+}
+
+.bottom{
+  position:absolute;
+  bottom:10px;
+}
+
+.memes {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+.delete {
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  position:absolute;
+  left:45%;
+  top: 45%;
+  background: none;
+	border: none;
+	padding: 0;
+	font: inherit;
+  font-weight: bolder;
+  color:red;
+	cursor: pointer;
+  visibility: hidden;
+}
+
+.container:hover button{
+  visibility: visible;
+  opacity:0.7;
+}
